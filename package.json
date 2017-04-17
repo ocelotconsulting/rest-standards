@@ -1,0 +1,64 @@
+{
+  "name": "rest-standards",
+  "version": "1.0.0",
+  "description": "presentation on rest standards",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --watch server.js --watch api -e js,json,md server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ocelotconsulting/rest-standards.git"
+  },
+  "keywords": [
+    "rest",
+    "api"
+  ],
+  "author": "John O'Malley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ocelotconsulting/rest-standards/issues"
+  },
+  "homepage": "https://github.com/ocelotconsulting/rest-standards#readme",
+  "dependencies": {
+    "es6-promisify": "^5.0.0",
+    "express": "~4.15.2",
+    "lodash": "^4.17.4",
+    "marked": "^0.3.6",
+    "prismjs": "^1.6.0"
+  },
+  "devDependencies": {
+    "babel-core": "~6.24.1",
+    "babel-loader": "~6.4.0",
+    "babel-plugin-transform-class-properties": "^6.23.0",
+    "babel-plugin-transform-runtime": "~6.23.0",
+    "babel-polyfill": "~6.23.0",
+    "babel-preset-es2015": "~6.24.1",
+    "babel-preset-react": "~6.24.1",
+    "babel-preset-stage-0": "~6.24.1",
+    "babel-runtime": "~6.23.0",
+    "bootstrap": "~4.0.0-alpha.6",
+    "chai": "~3.5.0",
+    "chai-as-promised": "~6.0.0",
+    "chai-enzyme": "~0.6.1",
+    "classnames": "^2.2.5",
+    "css-loader": "~0.28.0",
+    "enzyme": "~2.8.2",
+    "file-loader": "^0.11.1",
+    "font-awesome": "~4.7.0",
+    "mocha": "~3.2.0",
+    "node-sass": "~4.5.0",
+    "nodemon": "~1.11.0",
+    "react": "~15.5.4",
+    "react-dom": "~15.5.4",
+    "react-addons-test-utils": "~15.5.1",
+    "sass-loader": "~6.0.0",
+    "sinon": "~2.1.0",
+    "sinon-chai": "~2.9.0",
+    "style-loader": "~0.16.1",
+    "superagent": "^3.5.0",
+    "webpack": "~2.4.1",
+    "webpack-dev-middleware": "~1.10.0",
+    "webpack-hot-middleware": "~2.18.0"
+  }
+}

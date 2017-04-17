@@ -1,0 +1,6 @@
+{
+  "id": "user13",
+  "fullName": "John Doe",
+  "enabled": true,
+  "supervisor": "user98"
+}

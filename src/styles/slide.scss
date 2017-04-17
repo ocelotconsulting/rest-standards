@@ -1,0 +1,17 @@
+.slide {
+  outline: none;
+  margin: 20px;
+  h1 {
+    margin-bottom: 16px;
+  }
+  pre {
+    background-color: black;
+    padding: 10px;
+    code.lang-plain {
+      color: white;
+    }
+  }
+  a.next {
+    float: right;
+  }
+}

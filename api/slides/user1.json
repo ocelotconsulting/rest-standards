@@ -1,0 +1,6 @@
+{
+  "id": "user42",
+  "name": "Jane Smith",
+  "disabled": true,
+  "accountNumbers": [123, 345, 567]
+}
