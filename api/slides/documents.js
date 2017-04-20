@@ -13,9 +13,12 @@ const slides = [
   'urls',
   'pathVsQuery',
   'schema',
-  'staticLanguages'
+  'staticLanguages',
+  'versioning',
+  'documentation',
+  'paging',
+  'theEnd'
 ]
-
 
 const toCode = html => `<pre><code class='language-json'>${html}</code></pre>`
 

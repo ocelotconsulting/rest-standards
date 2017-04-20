@@ -4,7 +4,7 @@ It can be tricky to decide whether to use a path parameter or a query parameter.
 is that path parameters **must** be required (using a 'none', dash, or underscore as a nullable path parameter is, 
 I think, objectively evil), while query parameters should be optional whenever possible.
 
-If a resources is not found at a particular location, the service should respond 404 (except on DELETE), whereas if
+If a resource is not found at a particular location, the service should respond 404 (except on DELETE), whereas if
 the query parameter fails to discover a particular resource the service should return an appropriate empty result.
 
 In short:

@@ -1,7 +1,7 @@
 # Schema
 
-Each endpoint should return the same schema for all requests, whether or not optional query parameters are present.
-But we define the term 'schema' a little more loosely.
+Each endpoint should return the same schema for all requests, whatever the value of query parameters.
+But we define the term 'schema' a little more loosely than, say, a statically typed language does.
 
 For example:
 

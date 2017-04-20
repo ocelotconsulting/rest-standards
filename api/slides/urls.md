@@ -3,8 +3,8 @@
 Impatient developers rarely fully read documentation... so how you design your URLs is of critical importance.
 There is some latitude for debate on this topic - e.g. singular vs. plural, but in general a few standards apply.
     
-+ Avoid verbs, as consumers don't reason about a REST api that way.  Design your API such that the HTTP verbs are 
-sufficient.  
++ Avoid verbs, as consumers don't reason about a REST api that way.  If you can, design your API such that the HTTP 
+verbs are sufficient.  
     
 ``` plain
 POST /users/create   # BAD
@@ -14,7 +14,7 @@ GET /getUser/user42 # BAD
 GET /user/user42    # good
 ```
 
-It can be helpful to think of your resources as a directory tree. 
+It can be helpful to think of your resources as a directory tree of sorts. 
 Watch out for conflicts between nested resources and ids - this is roughly like having a file and a directory with 
 the same name - avoid that.  
 

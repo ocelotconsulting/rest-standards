@@ -38,6 +38,6 @@ and POST can be used for other purposes than creation if necessary.
 
 + Use the correct HTTP verb.  If, for example, you know what the resulting URL will be when creating a resource, use
   PUT *not* POST.
-+ Guarantee idempotency for idempotent methods.  PUT should never fail when the item already exists.  DELETE must 
++ Guarantee idempotency for idempotent methods.  PUT should never fail when the item already exists.  DELETE should 
   respond 204 *not* 404 when the resource does not exist.  
-+ Avoid RPC-like behavior whenever possible - but use POST if you must.    
++ Return a correct status code - 2xx for OK, 3xx for a redirect, 4xx if the request is bad, 5xx if somethings wrong on the server.    
